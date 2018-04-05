@@ -4,6 +4,7 @@ var express=require('express');
 var app= express();
 var PORT=3000;
 
+/*
 var middleware= {
 	requireAuthentication: function (req,res,next) {
 		console.log('private route hit!!');
@@ -20,6 +21,7 @@ app.use(middleware.logger);
 
 app.use(middleware.requireAuthentication);
 */
+var middleware=require('./middleware.js');
 app.get('/',function (req,res) {
 res.send('Hello Express in app2 work!!')
 });

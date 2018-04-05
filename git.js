@@ -9,3 +9,5 @@ git status --> to check chnages made in the project
 git add. // to add to git 
 git rm --cached -r node_modules // for changes revert
 .gitignore // is used to ignore the files which we want to ingnore
+git commit -a -m "Updated language" a flag indicate the file 
+ m-> indicate message 
